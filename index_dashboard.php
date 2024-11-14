@@ -115,14 +115,19 @@
                 <form action="" method="post">
 
 
-                    <p class="d-block text-gray-dark">Judul</p>
+                    <p class="d-block text-gray-dark">Judul Berita</p>
 
-                    <input type="text" class="form-control">
-                    </p>
-                    <p class="d-block text-gray-dark">Judul</p>
+                    <p class="d-block text-gray-dark"> <input type="text" class="form-control" name="xjudul"
+                            placeholder="masukan judul berita"> </p>
+                    <p class="d-block text-gray-dark"> <textarea class="form-control" name="xisiberita"
+                            placeholder="masukan isi berita">
+                     </textarea></p>
 
-                    <input type="text" class="form-control">
-                    </p>
+                    <p class="d-block text-gray-dark">Tanggal Berita</p>
+                    <p class="d-block text-gray-dark"><input type="date" class="form-control" name="xtanggal"></p>
+
+                    <p class="d-block text-gray-dark">Gambar Berita</p>
+                    <p class="d-block text-gray-dark"><input type="file" class="form-control" name="xfoto"></p>
             </row>
             <small class="d-block text-end mt-3">
 
